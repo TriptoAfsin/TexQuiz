@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>CP Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">CP Quiz</p>
+            <p class="credit">Questions Provided by Anupom Mondol(Lecturer, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. What will be the output of the following C code?</p>
+                <img src="./img/cp1.png" width="380" height="130"><br>
+                <input type="radio" id="mc" name="q1" value="1"> equal</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> not equal</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> output depends on the compiler</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> error</input><br>
+                <p>2. What will be the output of the following C code?</p>
+                <img src="./img/cp2.png" width="380" height="130"><br>
+                <input type="radio" id="mc" name="q2" value="1"> 1</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> error</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> 1.0000000</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> 49.000000</input><br>
+                <p>3. The C code ‘for( ; ; )’ represents an infinite loop. It can be terminated by ___________</p>
+                <input type="radio" id="mc" name="q3" value="1"> break</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> exit(0)</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> abort()</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> terminate</input><br>
+                <p>4. For which of the following, “PI++;” code will fail?</p>
+                <input type="radio" id="mc" name="q4" value="1"> #define PI 3.14</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> char *PI = “A”;</input><br>
+                <input type="radio" id="mc" name="q4" value="3"> float PI = 3.14;</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> none of the Mentioned </input><br>
+                <p>5. if a=2 and c = a++ + a++ then c=? </p>
+                <input type="radio" id="mc" name="q5" value="1"> 3</input><br>
+                <input type="radio" id="mc" name="q5" value="2"> 4</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> 5</input><br>
+                <input type="radio" id="mc" name="q5" value="4"> 7</input><br>
+                <p>6. Which of the following is not an input function?</p>
+                <input type="radio" id="mc" name="q6" value="1"> scanf()</input><br>
+                <input type="radio" id="mc" name="q6" value="2"> putc()</input><br>
+                <input type="radio" id="mc" name="q6" value="3"> getc()</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> none of above</input><br>
+                <p>7. Which operator connects the structure name to its member name? </p>
+                <input type="radio" id="mc" name="q7" value="1"> –</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> <-</input><br>
+                <input type="radio" id="mc" name="q7" value="3">  . </input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Both <- and .</input><br>
+                <p>8. How can we create loop in our program not using for,while and do while ?</p>
+                <input type="radio" id="mc" name="q8" value="1"> goto</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> array</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> switch  </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> All of above </input><br>
+                <p>9. What will be the output of the following C code?</p>
+                <img src="./img/cp9.png" width="380" height="140"><br>
+                <input type="radio" id="mc" name="q9" value="1"> 6 7</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> 6 6</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> 5 5</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> 5 6</input><br>
+                <p>What will be the output of the following C code?</p>
+                <img src="./img/cp10.png" width="380" height="140"><br>
+                <input type="radio" id="mc" name="q10" value="1"> Infinite calls to main</input><br>
+                <input type="radio" id="mc" name="q10" value="2"> Run time error </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Varies</input><br>
+                <input type="radio" id="mc" name="q10" value="4"> main is called twice</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkCP();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/BUTEX_ID-Gen/" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./cp.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>
