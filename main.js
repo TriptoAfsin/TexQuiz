@@ -74,7 +74,7 @@ function checkNTF(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
@@ -157,7 +157,7 @@ function checkwp1(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
@@ -240,7 +240,7 @@ function checkmmtf(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
@@ -323,7 +323,7 @@ function checkem(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
@@ -406,7 +406,7 @@ function checkmp(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
@@ -491,7 +491,7 @@ function checkCP(){
         grade = "D";
         document.getElementById("grade").style.color = "red";
     }
-    else if(score < 2){
+    else if(score < 3){
         grade = "F";
         document.getElementById("grade").style.color = "red";
     }
