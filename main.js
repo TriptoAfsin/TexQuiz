@@ -440,28 +440,28 @@ function checkCP(){
     if(q1 == "2"){
         score++;
     }
-    if(q2 == "3"){
+    if(q2 == "2"){
         score++;
     }
-    if(q3 == "2"){
+    if(q3 == "1"){
         score++;
     }
-    if(q4 == "3"){
+    if(q4 == "1"){
         score++;
     }
-    if(q5 == "2"){
+    if(q5 == "3"){
         score++;
     }
-    if(q6 == "1"){
+    if(q6 == "2"){
         score++;
     }
     if(q7 == "3"){
         score++;
     }
-    if(q8 == "3"){
+    if(q8 == "1"){
         score++;
     }
-    if(q9 == "4"){
+    if(q9 == "1"){
         score++;
     }
     if(q10 == "4"){
