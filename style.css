@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ntfBody{
+    display: visible;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Baloo Thambi 2', cursive;
+    background-color: white;
+    color: whitesmoke;
+
+}
+
+.container{
+    font-size: 14px;
+    width: 350px;
+    margin: 10px auto;
+    position: relative;
+    user-select: none; /* prevents user from selcting ui elements*/
+}
+
+.banner{
+    color: white;
+    text-align: center;
+    background-color: rgb(55, 145, 55);
+}
+
+.content{
+    text-align: center;
+    margin-top: 3rem;
+}
+.content-2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.btn-ntf{
+    font-weight: bold;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(45deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+}
+.btn-cp{
+    font-weight: bold;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
+.btn-mmtf{
+    font-weight: bold;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.btn-ttqc{
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+
+
+.container-ntf{
+    width: 350px;
+    margin: 10px auto;
+    position: relative;
+    user-select: none; /* prevents user from selcting ui elements*/
+}
+.nb{
+    
+    background-color: rgb(199, 56, 56);
+    margin-top: 1rem;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.banner-ntf{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: rgb(64, 55, 145);
+}
+
+.home-btn{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.home{
+    font-weight: bold;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 5rem;
+    font-size: 30px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
+
+.home-footer{
+    font-weight: bold;
+    margin-left: 1rem;
+    color: white;
+    border-radius: 5rem;
+    font-size: 20px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
+.btn-a{
+    font-weight: bold;
+    margin-left: 1rem;
+    border: none;
+    color: white;
+    border-radius: 5rem;
+    font-size: 30px;
+    background: linear-gradient(115deg, rgb(60, 167, 69), rgb(43, 238, 131));
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-a:hover{
+    background: linear-gradient(115deg, rgb(35, 187, 224), rgb(86, 56, 223));
+}
+
+
+.content-ntf{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 0.2rem;
+}
+
+.content-ntf p{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.credit{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5rem;
+    background-color: rgb(60, 156, 60);
+}
+
+.about p{
+    margin-top: 4rem;
+}
+
+.about a{
+    margin-top: 2rem;
+    color: rgb(49, 173, 49);
+}
+
+.frontAbout{
+    font-size: 16px;
+    margin-top: 7rem;
+    color: black;
+    text-align: center;
+}
+
+.submit{
+    text-align: center;
+}
+
+.sub-btn{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.res-sheet{
+    text-align: center;
+}
+
+.share{
+    margin-bottom: 2rem;
+}
+
+#ResultNTF{
+    visibility: hidden;
+    text-align: center;
+    
+}
+
+#ResultNTF h1{
+    margin-top: 1rem;
+    background-color: tomato;
+    color: white;
+}
+
+.grade{
+    font-size: 45px;
+    font-weight: 900;
+
+}
+
+.score{
+    margin-top: 0.3rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#namebtn{
+    margin-left: 2rem;
+    visibility: hidden;
+    color: rgb(58, 155, 58);
+}
+
+.btn-name{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    padding: 0.3rem 0.3rem;
+    border-radius: 1rem;
+    background: rgb(60, 125, 209);
+    border: none;
+}
+
+.namentr{
+    margin-left: 1rem;
+}
+
+#usrname{
+    margin-left: 0.6rem;
+    padding: 0.5rem 1rem;
+
+}
+
+
+
+@media(min-width: 700px){
+    .container-ntf{
+        width: 700px;
+        margin: 10px auto;
+        position: relative;
+        user-select: none; /* prevents user from selcting ui elements*/
+    }
+}
+
+@media(min-width: 700px){
+    .content-ntf{
+        font-size: 18px;
+        color: black;
+        margin-bottom: 0.2rem;
+    }
+}
+@media(min-width: 700px){
+    #ResultNTF h1{
+        margin-top: 2rem;
+        background-color: tomato;
+        color: white;
+    }
+}
+
+@media(min-width: 700px){
+    .score{
+        margin-top: 0.5rem;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+@media(min-width: 700px){
+    .grade{
+        font-size: 45px;
+        font-weight: bold;
+    
+    }
+}
+
+@media(min-width: 700px){
+    .container{
+        font-size: 16px;
+        width: 500px;
+        margin: 10px auto;
+        position: relative;
+        user-select: none; /* prevents user from selcting ui elements*/
+    }
+}
+@media(min-width: 700px){
+    .btn-name{
+        
+        margin-left: 2rem;
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        padding: 0.5rem 0.5rem;
+        border-radius: 2rem;
+        background: rgb(60, 125, 209);
+        border: none;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+

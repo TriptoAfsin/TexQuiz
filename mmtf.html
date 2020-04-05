@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>MMTF Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">MMTF Quiz</p>
+            <p class="credit">Questions Provided by Humayra Akhter Himu(Lecturer, DoESE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. Which one is the mineral based man-made fiber? </p>
+                <input type="radio" id="mc" name="q1" value="1"> Asbestos </input><br>
+                <input type="radio" id="mc" name="q1" value="2"> Collagen </input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Glass </input><br>
+                <input type="radio" id="mc" name="q1" value="4"> Acetate</input><br>
+                <p>2. Which fiber has most crystalline region? </p>
+                <input type="radio" id="mc" name="q2" value="1"> Lyocell </input><br>
+                <input type="radio" id="mc" name="q2" value="2"> Modal </input><br>
+                <input type="radio" id="mc" name="q2" value="3"> Spandex </input><br>
+                <input type="radio" id="mc" name="q2" value="4"> Viscose</input><br>
+                <p>3. ‘CH2=CH.CN’ bond present in which fiber structure?</p>
+                <input type="radio" id="mc" name="q3" value="1"> Polypropylene </input><br>
+                <input type="radio" id="mc" name="q3" value="2"> Acrylic </input><br>
+                <input type="radio" id="mc" name="q3" value="3"> Polyethylene </input><br>
+                <input type="radio" id="mc" name="q3" value="4"> Nylon 6,6</input><br>
+                <p>4. A fiber is said to be flame retardant if LOI value is -</p>
+                <input type="radio" id="mc" name="q4" value="1"> = 25 </input><br>
+                <input type="radio" id="mc" name="q4" value="2"> ≥ 25 </input><br>
+                <input type="radio" id="mc" name="q4" value="3"> > 25</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> ≤ 25</input><br>
+                <p>5. Which one is the cellulose derivative man-made fiber?  </p>
+                <input type="radio" id="mc" name="q5" value="1"> Nylon 6T </input><br>
+                <input type="radio" id="mc" name="q5" value="2"> Chitosan </input><br>
+                <input type="radio" id="mc" name="q5" value="3"> Kevlar </input><br>
+                <input type="radio" id="mc" name="q5" value="4"> Graphene</input><br>
+                <p>6. Which fiber dissolves in chloroform?</p>
+                <input type="radio" id="mc" name="q6" value="1"> Acrylic </input><br>
+                <input type="radio" id="mc" name="q6" value="2"> Acetate </input><br>
+                <input type="radio" id="mc" name="q6" value="3"> Modacrylic </input><br>
+                <input type="radio" id="mc" name="q6" value="4"> Tri-acetate</input><br>
+                <p>7. Which is the trade name of Nomex?  </p>
+                <input type="radio" id="mc" name="q7" value="1"> Technora </input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Terylene </input><br>
+                <input type="radio" id="mc" name="q7" value="3"> Twaron </input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Teijinconex</input><br>
+                <p>8. Which fiber shows highly serrated cross-section?</p>
+                <input type="radio" id="mc" name="q8" value="1"> Tencel </input><br>
+                <input type="radio" id="mc" name="q8" value="2"> Viscose </input><br>
+                <input type="radio" id="mc" name="q8" value="3"> Modal  </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> Polysonic </input><br>
+                <p>9. Which fiber is used in acoustic insulation?</p>
+                <input type="radio" id="mc" name="q9" value="1"> Nomex </input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Carbon </input><br>
+                <input type="radio" id="mc" name="q9" value="3"> Lycra </input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Glass</input><br>
+                <p>10. Nylon fibre was first used as - </p>
+                <input type="radio" id="mc" name="q10" value="1"> Stocking </input><br>
+                <input type="radio" id="mc" name="q10" value="2"> Parachute material  </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Tooth brush </input><br>
+                <input type="radio" id="mc" name="q10" value="4"> Tent</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkmmtf();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./mmtf.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>

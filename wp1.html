@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>WP-I Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">WP-I Quiz</p>
+            <p class="credit">Questions Provided by Solaiman Bin Ali(Lecturer, DoWPE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. Which phenomena suits more for dyeing of cotton fabric with reactive dye?</p>
+                <input type="radio" id="mc" name="q1" value="1"> At first, dye molecules adsorbed on the layer of the fabric surfaces and then start to
+                entrapped</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> Initially, dyes are adsorbed on most accessible pores but due to presence of less accessible
+                areas, further adsorption becomes difficult</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Generally, dye particles show ionic characteristic when it has just added to the dye bath</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> Limited number of ionic sites of fiber ensured the proper dye-fiber reaction</input><br>
+                <p>2. If M:L ration is increased 1:8 to 1:15, what will be beneficial?</p>
+                <input type="radio" id="mc" name="q2" value="1"> Proper exhaustion</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> Easier to dye at open bath</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> Environmental friendly dyeing</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> Easier to achieve shade</input><br>
+                <p>3. What is the function of caustic soda in case of dyeing of cotton with vat?</p>
+                <input type="radio" id="mc" name="q3" value="1"> Reducing</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> Alkali reduction</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> Maintaining Solubilization</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> pH maintaining</input><br>
+                <p>4. Why does acidic media is requires for dyeing of polyester with disperse dye?</p>
+                <input type="radio" id="mc" name="q4" value="1"> Stabilization of dye</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> Dye migration</input><br>
+                <input type="radio" id="mc" name="q4" value="3"> Controlling the dispersing mechanism</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> Good colorfastness </input><br>
+                <p>5. Which colorants are suitable for protein fiber? </p>
+                <input type="radio" id="mc" name="q5" value="1"> Acid, basic, disperse</input><br>
+                <input type="radio" id="mc" name="q5" value="2"> Basic, acid, vat</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> Acid, pigment, direct</input><br>
+                <input type="radio" id="mc" name="q5" value="4"> Direct, azoic, pigment</input><br>
+                <p>6. Why does reduction clearing require?</p>
+                <input type="radio" id="mc" name="q6" value="1"> For good shade%</input><br>
+                <input type="radio" id="mc" name="q6" value="2"> Uniform dyeing</input><br>
+                <input type="radio" id="mc" name="q6" value="3"> Good colorfastness</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> Less damaging of dye</input><br>
+                <p>7. For vinyl sulphone recative dye, what does soda ash play role for dyeing?</p>
+                <input type="radio" id="mc" name="q7" value="1"> Successful convert of dye into ionization</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Higher exhaustion of dyes</input><br>
+                <input type="radio" id="mc" name="q7" value="3"> Neutralization of fiber</input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Uniform adsorption</input><br>
+                <p>8. What is function of caustic at pretreatment of cotton fabric?</p>
+                <input type="radio" id="mc" name="q8" value="1"> Wrapping up of impurities</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> Maintaining of alkali media</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> Breakdown of impurities </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> Removing impurities </input><br>
+                <p>9. Which option below does not suit process curve?</p>
+                <input type="radio" id="mc" name="q9" value="1"> Dyeing rate</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Cooling rate</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> After treatment’s temperature</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Number of rinsing</input><br>
+                <p>10. What is the role “carrier” in polyester dyeing?</p>
+                <input type="radio" id="mc" name="q10" value="1"> Lowering Tg</input><br>
+                <input type="radio" id="mc" name="q10" value="2"> Promoting polymer chain movement </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Fetching dye particles to the fiber</input><br>
+                <input type="radio" id="mc" name="q10" value="4"> Creating free volume</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkwp1();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/BUTEX_ID-Gen/" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./wp1.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>MP Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">MP Quiz</p>
+            <p class="credit">Questions Provided by Sourav Kumar Ghosh(Lecturer, DoIPE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. The Lathe carriage serves the following purpose of the tool - </p>
+                <input type="radio" id="mc" name="q1" value="1"> Guiding</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> Feeding</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Supporting</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> All of them</input><br>
+                <p>2. What is the length of the arc generally?</p>
+                <input type="radio" id="mc" name="q2" value="1"> 1mm</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> 2mm</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> 3mm</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> 4mm</input><br>
+                <p>3. The following is used to support too flexible job very close to the cutting edge -</p>
+                <input type="radio" id="mc" name="q3" value="1"> Steady rest</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> Follower rest</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> Compound rest</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> Both a & b</input><br>
+                <p>4. In a shaper_____ movement of the drive is converted into _____ movement.</p>
+                <input type="radio" id="mc" name="q4" value="1"> rotary, reciprocating</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> reciprocating, rotary</input><br>
+                <input type="radio" id="mc" name="q4" value="3"> rotary, rotary</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> None </input><br>
+                <p>5.  ______ are the spiral grooves which run to the length of the drill.</p>
+                <input type="radio" id="mc" name="q5" value="1"> Shank</input><br>
+                <input type="radio" id="mc" name="q5" value="2"> Flutes</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> Tip</input><br>
+                <input type="radio" id="mc" name="q5" value="4"> Body</input><br>
+                <p>6. What is the purpose of change gear box?</p>
+                <input type="radio" id="mc" name="q6" value="1"> To cut standard thread</input><br>
+                <input type="radio" id="mc" name="q6" value="2"> To cut nonstandard thread</input><br>
+                <input type="radio" id="mc" name="q6" value="3"> To change the direction of feed</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> None of them</input><br>
+                <p>7. Which type of feed is needed in facing operation? </p>
+                <input type="radio" id="mc" name="q7" value="1"> Carriage</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Cross</input><br>
+                <input type="radio" id="mc" name="q7" value="3"> Both a & b</input><br>
+                <input type="radio" id="mc" name="q7" value="4"> None</input><br>
+                <p>8.  Lead screw is used for - </p>
+                <input type="radio" id="mc" name="q8" value="1"> Threading</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> Turning</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> Both </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> None </input><br>
+                <p>9. Clapper box is a part of ______ machine. </p>
+                <input type="radio" id="mc" name="q9" value="1"> Lathe</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Shaper</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> Drilling</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Welding</input><br>
+                <p>10. A three jaw chuck is _____.</p>
+                <input type="radio" id="mc" name="q10" value="1"> ndependent and to hold regular job</input><br>
+                <input type="radio" id="mc" name="q10" value="2"> Dependent and to hold regular job </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Independent and to hold irregular job</input><br>
+                <input type="radio" id="mc" name="q10" value="4"> Dependent and to hold irregular job</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkmp();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/BUTEX_ID-Gen/" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./mp.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>

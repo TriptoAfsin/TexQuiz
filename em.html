@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>EM Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">EM Quiz</p>
+            <p class="credit">Questions Provided by Sourav Kumar Ghosh(Lecturer, DoIPE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. For bottle application, what kind of glass is used?</p>
+                <input type="radio" id="mc" name="q1" value="1"> Soda lime</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> Borosilicate</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Both a & b</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> None</input><br>
+                <p>2. High performance of ceramics resulted due to -</p>
+                <input type="radio" id="mc" name="q2" value="1"> Low toughness</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> High density</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> Reduced size</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> Both a & c</input><br>
+                <p>3. For following materials, which material has more fracture toughness?</p>
+                <input type="radio" id="mc" name="q3" value="1"> SiN</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> Steel</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> Soda lime glass</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> Polymers</input><br>
+                <p>4. The hardness of steel depends upon the _______.</p>
+                <input type="radio" id="mc" name="q4" value="1">  Amount of iron it contains</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> Amount of carbon it contains</input><br>
+                <input type="radio" id="mc" name="q4" value="3">  Contents of alloying elements</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> Method of manufacture of steel </input><br>
+                <p>5. Which of the following bonding is secondary bonding? </p>
+                <input type="radio" id="mc" name="q5" value="1"> H2 bond</input><br>
+                <input type="radio" id="mc" name="q5" value="2"> Ionic bond</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> Covalent bond</input><br>
+                <input type="radio" id="mc" name="q5" value="4">  Both a & c</input><br>
+                <p>6. For glass, which of the following is the network breaker?</p>
+                <input type="radio" id="mc" name="q6" value="1"> SiO<sub>2</sub>, B<sub>2</sub>O<sub>3</sub></input><br>
+                <input type="radio" id="mc" name="q6" value="2"> Al<sub>2</sub>O<sub>3</sub></input><br>
+                <input type="radio" id="mc" name="q6" value="3"> Na<sub>2</sub>O, K<sub>2</sub>O</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> Both a & c</input><br>
+                <p>7. Fired products consist of __________ phase </p>
+                <input type="radio" id="mc" name="q7" value="1"> Crystalline</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Glassy</input><br>
+                <input type="radio" id="mc" name="q7" value="3"> Non-Crystalline</input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Amorphous</input><br>
+                <p>8. Limestone is a source of ______.</p>
+                <input type="radio" id="mc" name="q8" value="1"> CaO</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> Bt cotton</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> Al<sub>2</sub>O<sub>3</sub> </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> Na<sub>2</sub>O, K<sub>2</sub>O </input><br>
+                <p>9. China is used for ______.</p>
+                <input type="radio" id="mc" name="q9" value="1"> Tiles</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Tableware</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> Electrical insulator</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Construction</input><br>
+                <p>10. Advanced ceramics are called _________ ceramics.</p>
+                <input type="radio" id="mc" name="q10" value="1"> Traditional</input><br>
+                <input type="radio" id="mc" name="q10" value="2"> High performance </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Engineering</input><br>
+                <input type="radio" id="mc" name="q10" value="4">  Both b & c</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkem();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/BUTEX_ID-Gen/" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./em.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>
