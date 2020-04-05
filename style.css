@@ -63,6 +63,19 @@ body{
     padding: 0.5rem 3rem;
     text-decoration: none;
 }
+.row2{
+    margin-top: 2rem;
+}
+
+.btn-cp2{
+    font-weight: bold;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
 .btn-mmtf{
     font-weight: bold;
     color: white;
