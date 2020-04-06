@@ -66,6 +66,10 @@ body{
 .row2{
     margin-top: 2rem;
 }
+.content-3{
+    text-align: center;
+    margin-top: 3rem;
+}
 
 .btn-cp2{
     font-weight: bold;
