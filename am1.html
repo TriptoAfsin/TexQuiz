@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Take AM-I Quiz" />
+    <meta property="og:description" content="Answer These 10 Questions of AM-I" />
+    <meta property="og:url" content="https://triptoafsin.github.io/TexQuiz/am1.html" />
+    <meta property="og:site_name" content="TexQuiz-AM-I Quiz" />
+    <meta property="og:image" content="https://i.imgur.com/PseOsAB.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>PSE Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">AM-I Quiz</p>
+            <p class="credit">Questions Provided by Sazid Elahi(Lecturer, DoAE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. Which type of resin is used for interlining of a leather or fur jacket ? </p>
+                <input type="radio" id="mc" name="q1" value="1"> PET</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> PVC</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> PVA</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> Poly Amide</input><br>
+                <p>2. What will be the needle size if the needle blade dia of a sewing m/c is 0.8mm</p>
+                <input type="radio" id="mc" name="q2" value="1"> 40nm</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> 60nm</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> 80nm</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> 160nm</input><br>
+                <p>3. How many plans in acceptance sampling system during inspection ?</p>
+                <input type="radio" id="mc" name="q3" value="1"> 1</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> 2</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> 3</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> 4</input><br>
+                <p>4. Which chemical is used to remove grease/oil spot/wax from a garment made ?</p>
+                <input type="radio" id="mc" name="q4" value="1"> Only 2 types of reaction between two functional groups</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> Monomer having 2 reactive functional groups</input><br>
+                <input type="radio" id="mc" name="q4" value="3"> Step-wise reaction involved</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> Polymer is still active </input><br>
+                <p>5. what type of needle point will have to use for sewing of a thin woven fabric?</p>
+                <input type="radio" id="mc" name="q5" value="1"> slim set point </input><br>
+                <input type="radio" id="mc" name="q5" value="2"> set point</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> light ball point</input><br>
+                <input type="radio" id="mc" name="q5" value="4"> medium ball point.</input><br>
+                <p>6. What is the maximum lay height in a semi automatic spreading m/c ?</p>
+                <input type="radio" id="mc" name="q6" value="1"> 25cm</input><br>
+                <input type="radio" id="mc" name="q6" value="2"> 15cm</input><br>
+                <input type="radio" id="mc" name="q6" value="3"> 50cm</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> 35cm</input><br>
+                <p>7. Hanging fabric package used for -  </p>
+                <input type="radio" id="mc" name="q7" value="1"> Shirting</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Velvet</input><br>
+                <input type="radio" id="mc" name="q7" value="3">Denim</input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Oxford</input><br>
+                <p>8. The height of the blade of a straight knife is - </p>
+                <input type="radio" id="mc" name="q8" value="1"> 10-33cm</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> 5-15cm</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> 5-25cm </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> 10-50cm </input><br>
+                <p>9. which seam is generally used for making the side seam of a denim pant? </p>
+                <input type="radio" id="mc" name="q9" value="1"> lapped</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> bound</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> flat</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> super imposed</input><br>
+                <p>10. what is the ticket no for 2/40 be yarn?</p>
+                <input type="radio" id="mc" name="q10" value="1"> 60 </input><br>
+                <input type="radio" id="mc" name="q10" value="2"> 70  </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> 80 </input><br>
+                <input type="radio" id="mc" name="q10" value="4"> 6</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkam1();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/TexQuiz/am1.html" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./am1.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>
