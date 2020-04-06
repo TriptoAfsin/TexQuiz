@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Take PSE Quiz" />
+    <meta property="og:description" content="Answer These 10 Questions of PSE" />
+    <meta property="og:url" content="https://triptoafsin.github.io/TexQuiz/pse.html" />
+    <meta property="og:site_name" content="TexQuiz-MP Quiz" />
+    <meta property="og:image" content="https://i.imgur.com/T1Nwae0.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>PSE Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">PSE Quiz</p>
+            <p class="credit">Questions Provided by Solaiman Bin Ali(Lecturer, DoWPE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. Which option doesn’t suit the “chain polymerization”? </p>
+                <input type="radio" id="mc" name="q1" value="1"> Self addition of monomer</input><br>
+                <input type="radio" id="mc" name="q1" value="2"> No byproduct is formed</input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Bi-functionality is provided by the double bonds</input><br>
+                <input type="radio" id="mc" name="q1" value="4"> Partial chain reaction</input><br>
+                <p>2. Which isn’t the example of initiator for “free-radical polymerization”?</p>
+                <input type="radio" id="mc" name="q2" value="1"> Azo coumpound</input><br>
+                <input type="radio" id="mc" name="q2" value="2"> Vinyl sulphone</input><br>
+                <input type="radio" id="mc" name="q2" value="3"> Per-oxides</input><br>
+                <input type="radio" id="mc" name="q2" value="4"> Per-acids</input><br>
+                <p>3. What is the “Ziegler-Natta catalyst”?</p>
+                <input type="radio" id="mc" name="q3" value="1"> Electrolytic agent</input><br>
+                <input type="radio" id="mc" name="q3" value="2"> Inorganic based catalyst</input><br>
+                <input type="radio" id="mc" name="q3" value="3"> Organo-metallic compound</input><br>
+                <input type="radio" id="mc" name="q3" value="4"> Ion based organic compound</input><br>
+                <p>4. Which statement isn’t true for “Poly-condensation polymerization”?</p>
+                <input type="radio" id="mc" name="q4" value="1"> Only 2 types of reaction between two functional groups</input><br>
+                <input type="radio" id="mc" name="q4" value="2"> Monomer having 2 reactive functional groups</input><br>
+                <input type="radio" id="mc" name="q4" value="3"> Step-wise reaction involved</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> Polymer is still active </input><br>
+                <p>5. What isn’t true about “Bulk polymerization’?</p>
+                <input type="radio" id="mc" name="q5" value="1"> The probability of chain collision is less</input><br>
+                <input type="radio" id="mc" name="q5" value="2"> Tendency of explosion</input><br>
+                <input type="radio" id="mc" name="q5" value="3"> Less soluble initiator is required</input><br>
+                <input type="radio" id="mc" name="q5" value="4"> Termination becomes difficult</input><br>
+                <p>6. What is the dis-advantages of “Solution polymerization”?</p>
+                <input type="radio" id="mc" name="q6" value="1"> Uncontrolled heat transfer</input><br>
+                <input type="radio" id="mc" name="q6" value="2"> Improper viscosity control</input><br>
+                <input type="radio" id="mc" name="q6" value="3"> Difficult to achieve homogenous polymer</input><br>
+                <input type="radio" id="mc" name="q6" value="4"> Difficult to get high molecular weight products</input><br>
+                <p>7. Which polymerization is known as “independent bulk polymerization nucleus”? </p>
+                <input type="radio" id="mc" name="q7" value="1"> Solution</input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Poly-condensation</input><br>
+                <input type="radio" id="mc" name="q7" value="3">Suspension</input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Emulsion</input><br>
+                <p>8. Which factor doesn’t influence the crystalline of polymer? </p>
+                <input type="radio" id="mc" name="q8" value="1"> Bulky group</input><br>
+                <input type="radio" id="mc" name="q8" value="2"> Branch</input><br>
+                <input type="radio" id="mc" name="q8" value="3"> Configuration of polymer </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> Stabilization of polymer </input><br>
+                <p>9. What is the function of “Surfactant” in emulsion polymerization? </p>
+                <input type="radio" id="mc" name="q9" value="1"> Reducing kinetic energy of monomer</input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Facilitates emulsification</input><br>
+                <input type="radio" id="mc" name="q9" value="3"> Improving surface tension</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Suspension of unutilized monomer</input><br>
+                <p>10. Why does Tg is low for lower molecular weight polymer?</p>
+                <input type="radio" id="mc" name="q10" value="1"> Lower intra-bonding of chains</input><br>
+                <input type="radio" id="mc" name="q10" value="2"> Higher ends presence </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Less viscosity</input><br>
+                <input type="radio" id="mc" name="q10" value="4"> Less mechanical strength</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkpse();" class="btn-a" value="Submit"></input>
+                </div>
+                
+            <form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=https://triptoafsin.github.io/TexQuiz/mp.html" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./pse.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                </form>
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>
