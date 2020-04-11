@@ -18,9 +18,22 @@ body{
     font-family: 'Baloo Thambi 2', cursive;
     background-color: white;
     color: whitesmoke;
-
 }
 
+.search-bar{
+    position: sticky;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 1.5rem; 
+}
+.search-ui input{
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.795);
+    padding: 1rem 5rem;
+}
 .container{
     font-size: 14px;
     width: 350px;
@@ -43,6 +56,29 @@ body{
     text-align: center;
     margin-top: 3rem;
 }
+.content-3{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.list{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.list li{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+#no-found{
+    margin-top: 3rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 2rem;
+}
 
 .btn-ntf{
     font-weight: bold;
@@ -56,23 +92,6 @@ body{
 .btn-cp{
     font-weight: bold;
     margin-left: 1rem;
-    color: white;
-    border-radius: 5rem;
-    font-size: 40px;
-    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
-    padding: 0.5rem 3rem;
-    text-decoration: none;
-}
-.row2{
-    margin-top: 2rem;
-}
-.content-3{
-    text-align: center;
-    margin-top: 3rem;
-}
-
-.btn-cp2{
-    font-weight: bold;
     color: white;
     border-radius: 5rem;
     font-size: 40px;
@@ -97,6 +116,19 @@ body{
     font-size: 40px;
     background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
     padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.row2{
+    margin-top: 2rem;
+}
+
+.btn-cp2{
+    font-weight: bold;
+    color: white;
+    border-radius: 5rem;
+    font-size: 40px;
+    background: linear-gradient(115deg, rgb(75, 61, 197), rgb(18, 154, 233));
+    padding: 0.5rem 3rem;
     text-decoration: none;
 }
 
@@ -202,12 +234,15 @@ body{
     color: black;
     text-align: center;
 }
+
+
 .home-share{
     font-size: 16px;
     margin-top: 9rem;
     color: black;
     text-align: center;
 }
+
 
 .submit{
     text-align: center;
