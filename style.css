@@ -43,6 +43,8 @@ body{
 }
 
 .banner{
+    font-size: 2rem;
+    font-weight: bold;
     color: white;
     text-align: center;
     background-color: rgb(55, 145, 55);
