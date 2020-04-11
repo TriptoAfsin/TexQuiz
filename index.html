@@ -21,35 +21,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TexQuiz</title>
+    <script src="./main.js"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container">
         <h1 class="banner">Textile Quiz</h1>
-        <div class="content">
-            <a class="btn-ntf" href="./ntf.html">NTF</a>
-            <a class="btn-cp" href="./em.html">EM</a><br>
-            <div class="row2">
-                <a class="btn-cp2" href="./cp.html">CP</a>
-                <a class="btn-cp2" href="./pse.html">PSE</a>
-            </div>
-        </div>  
-        <div class="content-2">
-            <a class="btn-mmtf" href="./mmtf.html">MMTF</a>
-            <a class="btn-ttqc" href="./wp1.html">WP-I</a>
-            <a class="btn-ttqc" href="./mp.html">MP</a>
-        </div>  
-        <div class="content-3">
-            <a class="btn-mmtf" href="./am1.html">AM-I</a>
-        </div>  
+        <div class="search-bar">
+            <div class="search-ui">
+                <input type="text" name="search" value="" placeholder="Type to Search" autocomplete="off" id="inpttxt" onkeyup="mySearch();">
+            </div>   
+        </div>
+        <p id="no-found"></p>
+        <ul class="list" id="list" type="none">
+                <li> <a class="btn-ntf" href="./ntf.html">NTF</a></li>
+                <li><a class="btn-ntf" href="./em.html">EM</a></li>
+                <li><a class="btn-ntf" href="./cp.html">CP</a></li>
+                <li><a class="btn-ntf" href="./pse.html">PSE</a></li>   
+                <li><a class="btn-ntf" href="./mmtf.html">MMTF</a> </li>
+                <li><a class="btn-ntf" href="./wp1.html">WP-I</a></li>
+                <li><a class="btn-ntf" href="./mp.html">MP</a></li>
+                <li><a class="btn-ntf" href="./am1.html">AM-I</a></li>
+        </ul>
+        
         <div class="home-share">
             <a href="http://www.facebook.com/sharer.php?u=triptoafsin.github.io/TexQuiz/" class="home-footer" target="blank">Share on FB</a>
         </div>
+        
         <div class="frontAbout">
             <p class="about">Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
         </div>
         
     </div>
+    
     
     
 </body>
