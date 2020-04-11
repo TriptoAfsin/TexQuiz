@@ -4,6 +4,26 @@ function calName(){
     console.log("name called");
     document.getElementById("namebtn").style.visibility = "visible";
 }
+function mySearch(){
+    var input, filtter, ul, li, a, i;
+    input = document.getElementById("inpttxt");
+    filtter = input.value.toUpperCase();
+    ul = document.getElementById("list");
+    li = ul.getElementsByTagName("li");
+
+    for(i =0; i< li.length; i++){
+        a = li[i].getElementsByTagName('a')[0];
+        if(a.innerHTML.toUpperCase().indexOf(filtter) > -1){
+            li[i].style.display ="";
+            document.getElementById("no-found").innerHTML = "";
+
+        }
+        else{
+            li[i].style.display = 'none';
+            //document.getElementById("no-found").innerHTML = "No Results Found";
+        }
+    }
+}
 
 function checkNTF(){
     console.log("checkNTF() called");
