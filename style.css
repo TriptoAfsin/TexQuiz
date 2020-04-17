@@ -28,11 +28,21 @@ body{
     margin-top: 1.5rem; 
 }
 .search-ui input{
+    margin: 10px auto;
     border: none;
     border-radius: 5px;
     font-size: large;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.795);
-    padding: 1rem 5rem;
+    padding: 1rem 3rem;
+}
+.search-ui input:hover{
+    transition: ease-in 0.25s;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    box-shadow: 0 3px 10px 0 rgba(55, 145, 55);
+    padding: 1rem 3rem;
 }
 .container{
     font-size: 14px;
