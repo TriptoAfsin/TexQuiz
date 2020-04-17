@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Take AM-II Quiz" />
+    <meta property="og:description" content="Answer These 10 Questions of AM-II" />
+    <meta property="og:url" content="https://triptoafsin.github.io/TexQuiz/ntf.html" />
+    <meta property="og:site_name" content="TexQuiz-AM-II Quiz" />
+    <meta property="og:image" content="https://i.imgur.com/Gf1QPLp.png" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js"></script>
+    <title>AM-II Quiz</title>
+</head>
+    <body>
+        <div class="container-ntf">
+            <div class="home-btn">
+                <a href="./index.html" class="home">Home</a>
+            </div>
+            
+            <p class="banner-ntf">AM-II Quiz</p>
+            <p class="credit">Questions Provided by Sazid Elahi(Lecturer, DoAE, BUTEX)</p>
+            <h3 class="nb">N.B: Each Question Contains 1 Mark</h3>
+            <div class="content-ntf" id="ntfBody">  
+                <form id="ntf" name="ntf">
+                <p class="namentr">Enter Your Name: <input type="text" id="usrname" name="usrname" placeholder="Type here"></input><input type="button" onclick="calName();" class="btn-name" value="Submit Name"></input><b id="namebtn">Name Was Entered !</b></p>
+                <p>1. Which agent is mainly used for pigment wash of denim?</p>
+                <input type="radio" id="mc" name="q1" value="1"> Pigment </input><br>
+                <input type="radio" id="mc" name="q1" value="2"> Detergent </input><br>
+                <input type="radio" id="mc" name="q1" value="3"> Bleach </input><br>
+                <input type="radio" id="mc" name="q1" value="4"> Alkali</input><br>
+                <p>2. What is the PH value during bleach wash?</p>
+                <input type="radio" id="mc" name="q2" value="1"> 3-4 </input><br>
+                <input type="radio" id="mc" name="q2" value="2"> 4-5 </input><br>
+                <input type="radio" id="mc" name="q2" value="3"> 7-8 </input><br>
+                <input type="radio" id="mc" name="q2" value="4"> 10-11</input><br>
+                <p>3. What is the neutralization temperature of Enzyme wash?</p>
+                <input type="radio" id="mc" name="q3" value="1"> 30 </input><br>
+                <input type="radio" id="mc" name="q3" value="2"> 40 </input><br>
+                <input type="radio" id="mc" name="q3" value="3"> 50 </input><br>
+                <input type="radio" id="mc" name="q3" value="4"> 80</input><br>
+                <p>4. Which agent is used during super white wash of denim?</p>
+                <input type="radio" id="mc" name="q4" value="1"> Sodium hypo chloride </input><br>
+                <input type="radio" id="mc" name="q4" value="2"> Potassium hypo chloride </input><br>
+                <input type="radio" id="mc" name="q4" value="3"> Hydrogen peroxide</input><br>
+                <input type="radio" id="mc" name="q4" value="4"> Soda ash </input><br>
+                <p>5. Inner cylinder of garments washing machine rotates at a rpm of – </p>
+                <input type="radio" id="mc" name="q5" value="1"> 25 </input><br>
+                <input type="radio" id="mc" name="q5" value="2"> 45 </input><br>
+                <input type="radio" id="mc" name="q5" value="3"> 65 </input><br>
+                <input type="radio" id="mc" name="q5" value="4"> 95</input><br>
+                <p>6. In which temperature dyeing is carried out by Cold brand reactive dye?</p>
+                <input type="radio" id="mc" name="q6" value="1"> 30 </input><br>
+                <input type="radio" id="mc" name="q6" value="2"> 60 </input><br>
+                <input type="radio" id="mc" name="q6" value="3"> 70 </input><br>
+                <input type="radio" id="mc" name="q6" value="4"> 95</input><br>
+                <p>7. For which type of fabric straight T-pins are used during cutting preparation? </p>
+                <input type="radio" id="mc" name="q7" value="1"> Oxford </input><br>
+                <input type="radio" id="mc" name="q7" value="2"> Canvas </input><br>
+                <input type="radio" id="mc" name="q7" value="3"> Terry </input><br>
+                <input type="radio" id="mc" name="q7" value="4"> Chambray </input><br>
+                <p>8. Which type of spreading system maintains high quality for symmetric fabric?</p>
+                <input type="radio" id="mc" name="q8" value="1"> F/O/W, N/U/D </input><br>
+                <input type="radio" id="mc" name="q8" value="2"> F/F, N/O/W </input><br>
+                <input type="radio" id="mc" name="q8" value="3"> F/F, N/U/D  </input><br>
+                <input type="radio" id="mc" name="q8" value="4"> F/O/W, N/O/W </input><br>
+                <p>9. Hydroguard is an example of </p>
+                <input type="radio" id="mc" name="q9" value="1"> Water repellent </input><br>
+                <input type="radio" id="mc" name="q9" value="2"> Flame retardant </input><br>
+                <input type="radio" id="mc" name="q9" value="3"> Antimicrobial</input><br>
+                <input type="radio" id="mc" name="q9" value="4"> Insect repellent fabric</input><br>
+                <p>10. Which antimicrobial agent is ecofriendly?</p>
+                <input type="radio" id="mc" name="q10" value="1"> Triclosan </input><br>
+                <input type="radio" id="mc" name="q10" value="2"> PHMB  </input><br>
+                <input type="radio" id="mc" name="q10" value="3"> Clove oil </input><br>
+                <input type="radio" id="mc" name="q10" value="4"> Cyclodextrin</input><br>
+                <div class="sub-btn">
+                    <input type="button" onclick="checkam2();" class="btn-a" value="Submit"></input>
+                </div>
+            </form>
+                <div class="res-sheet">
+                    <div id="ResultNTF">
+                        <h1 id="resultHeader"></h1>
+                        <p id="grade" class="grade"></p>
+                        <p id="scoreNTF" class="score"></p>
+                        <a href="http://www.facebook.com/sharer.php?u=triptoafsin.github.io/TexQuiz/am2.html" class="home-footer" target="blank">Share on FB</a>
+                        <p class="share">Take a Screenshot & Share with your Friends !</p>
+                        <div class="home-btn">
+                            <a href="./index.html" class="home-footer">Home</a>
+                            <a href="./ntf.html" class="home-footer">Try Again</a>
+                        </div>
+                        <div class="about">
+                            <p>Made with ❤ by <a href="https://www.facebook.com/Tripto.Afsin">TriptoAfsin</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+
+            </div>  
+        </div>
+    
+</body>
+</html>
